@@ -9,7 +9,7 @@ public class Ex1_NomeEIdade {
         String nome;
         int idade;
 
-        while(true) {
+        while (true) {
             System.out.println("Nome: ");
             nome = scan.next();
             if (nome.equals("0")) break;
@@ -17,9 +17,13 @@ public class Ex1_NomeEIdade {
             System.out.println("Idade: ");
             idade = scan.nextInt();
         }
+        while (true) {
+            System.out.println("Nome: ");
+            nome = scan.next();
+            System.out.println("Idade: ");
+            idade = scan.nextInt();
 
-        System.out.println("Continua aqui...");
-
+        }
     }
 
 }
